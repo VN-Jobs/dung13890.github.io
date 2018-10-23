@@ -10,6 +10,10 @@
     .crazy-block {
         padding-left: 8em;
     }
+
+    .library-gallery .arrow {
+        left: 0;
+    }
 }
 
 @media (max-width: 992px) {
@@ -42,6 +46,22 @@
 
     .contact-work .crazy-style {
         padding: 1.9em 0 1.9em 2em;
+    }
+
+    .image-library-wrapper {
+        padding-top: 100px;
+    }
+
+    .library-intro {
+        text-align: center;
+    }
+
+    .library-gallery {
+        padding-top: 80px;
+    }
+
+    .library-gallery .arrow {
+        left: 20px;
     }
 
     .page-header {
@@ -99,6 +119,10 @@
     .crazy-block {
         padding-left: 1em;
         width: 100%;
+    }
+    
+    .library-gallery .arrow {
+        display: none !important;
     }
 
     .signup-wrapper {

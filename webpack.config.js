@@ -65,6 +65,26 @@ module.exports = {
       {
         from: nodeModules + 'magnific-popup/dist/jquery.magnific-popup.min.js',
         to: 'vendor'
+      },
+      {
+        from: nodeModules + 'lightgallery/dist/js/lightgallery-all.min.js',
+        to: 'vendor'
+      },
+      {
+        from: nodeModules + 'lightgallery/dist/js/lightgallery.min.js',
+        to: 'vendor'
+      },
+      {
+        from: nodeModules + 'lightgallery/dist/img',
+        to: '../fonts/img'
+      },
+      {
+        from: nodeModules + 'lightgallery/dist/fonts',
+        to: '../fonts/fonts'
+      },
+      {
+        from: nodeModules + 'lightgallery/dist/css/lightgallery.min.css',
+        to: '../fonts/css'
       }
     ])
   ],
